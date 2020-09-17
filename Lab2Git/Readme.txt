@@ -1,0 +1,2 @@
+	Custom blurring function is made using filter2D(). Argument "coefficient" sets blur intensity and its value has to be more than 0 and less than 0.5. The size of the matrix changes according to the coefficient with every new compilation (executing).
+	Custom gradient functions are also made using filter2D(). There are 3 functions (one for each method - Sobel's, Feldman's, Scharr's), that set kernel matrix for horizontal changes and then do transformation.
